@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'xe11.samples.android.lib.sum'
+    namespace 'xe11.samples.android.lib2'
     compileSdk 33
 
     defaultConfig {
@@ -32,6 +32,7 @@ android {
 
 dependencies {
 
+    implementation 'com.github.xe11:sample-android-artifact-publishing-lib1:0.0.5'
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
